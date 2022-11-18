@@ -1,36 +1,35 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Ogurchik00/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Ogurchik00/frontend-project-44/actions)",
-  "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js",
-    "brain-calc": "bin/brain-calc.js", 
-    "brain-gcd": "bin/brain-gcd.js", 
-    "brain-progressions": "bin/brain-progressions.js",
-    "brain-prime": "bin/brain-prime.js"
-
-  },
+  "description": "[![Actions Status](https://github.com/Maxencio/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Maxencio/frontend-project-44/actions)",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ogurchik00/frontend-project-44.git"
+    "url": "git+https://github.com/Maxencio/frontend-project-44.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ogurchik00/frontend-project-44/issues"
+    "url": "https://github.com/Maxencio/frontend-project-44/issues"
   },
-  "type": "module",
-  "homepage": "https://github.com/Ogurchik00/frontend-project-44#readme",
+  "homepage": "https://github.com/Maxencio/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^8.27.0",
+    "eslint": "^8.23.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
   }
