@@ -1,8 +1,6 @@
 const brainGcd = () => {
-  const randomFirstNum = Math.floor(Math.random() * 10);
-  const randomSecondNum = Math.floor(Math.random() * 10);
-
-  if (randomFirstNum === 0 || randomSecondNum === 0) return [`${randomFirstNum} ${randomSecondNum}`, `${0}`];
+  const randomFirstNum = Math.floor(Math.random() * (10 - 1) + 1);
+  const randomSecondNum = Math.floor(Math.random() * (10 - 1) + 1);
 
   const arrNum = [randomFirstNum, randomSecondNum];
   arrNum.sort();
