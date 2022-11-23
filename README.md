@@ -1,7 +1,19 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Maxencio/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Maxencio/frontend-project-44/actions)
-### Linter status:
-<a href="https://codeclimate.com/github/Maxencio/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/016f2ac2c3ca8e240a74/maintainability" /></a>
+[![Actions Status](https://github.com/Ogurchik00/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/Ogurchik00/frontend-project-44/actions)
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/684b9d804474c5c3dc42/maintainability)](https://codeclimate.com/github/Ogurchik00/frontend-project-44/maintainability)
+
+
+[Brain-even]()
+
+[Brain-calk]()
+
+[Brain-gcd]()
+
+[Brain-progression](https://asciinema.org/a/Kx8MWimWQBoPoar120sKhuQh5)
+
+[Brain-prime](https://asciinema.org/a/2E8C5uMgpC9nLqfUaiZDur0X1)
+
 # Project decription
 
 
@@ -21,7 +33,7 @@ The games are:
 Make sure you have installed Node.js version 13 or higher.
 
 1. Clone repo:
-`git clone git@github.com:pollyleyka/frontend-project-lvl1.git`
+`git clone https://github.com/Ogurchik00/frontend-project-44.git`
 2. Change directory:
 `cd frontend-project-lvl1`
 3. Install packages:
@@ -32,29 +44,29 @@ Make sure you have installed Node.js version 13 or higher.
 
 ### 1. Brain even.
 To start the game type:
-`make brain-even`
-<a href="https://asciinema.org/a/0stOa9iFN56MAcJzw9fmp53Gy" target="_blank"><img src="https://asciinema.org/a/0stOa9iFN56MAcJzw9fmp53Gy.svg" /></a>
+`brain-even`
+<a href="https://asciinema.org/a/ckorFSkeoXLHWRYVR5yFz3ICe" target="_blank"></a>
 
 
 ### 2. Brain calculator.
 To start the game type:
-`make brain-calc`
-<a href="https://asciinema.org/a/UBl5MJ9yetmCV2bmSF5kqhss2" target="_blank"><img src="https://asciinema.org/a/UBl5MJ9yetmCV2bmSF5kqhss2.svg" /></a>
+`brain-calc`
+<a href="https://asciinema.org/a/8A0yAWVPRh9xkb21ak5xZGFBl" target="_blank"></a>
 
 
 ### 3. Brain gcd.
 To start the game type:
-`make brain-gcd`
-<a href="https://asciinema.org/a/FZceIlyqOxu80UTJITUJxSr5p" target="_blank"><img src="https://asciinema.org/a/FZceIlyqOxu80UTJITUJxSr5p.svg" /></a>
+`brain-gcd`
+<a href="https://asciinema.org/a/zAzCdYgtQcMGXYZhUDrVoVGGk" target="_blank"></a>
 
 
 ### 4. Brain progression.
 To start the game type:
-`make brain-progression`
-<a href="https://asciinema.org/a/YAzjMbFwkkX15EHlVu3eHGguD" target="_blank"><img src="https://asciinema.org/a/YAzjMbFwkkX15EHlVu3eHGguD.svg" /></a>
+`brain-progression`
+<a href="https://asciinema.org/a/Kx8MWimWQBoPoar120sKhuQh5" target="_blank"></a>
 
 
 ### 5. Brain prime.
 To start the game type:
-`make brain-prime`
-<a href="https://asciinema.org/a/SwT6UZ0okCoyIgl7IM4hLiZ8U" target="_blank"><img src="https://asciinema.org/a/SwT6UZ0okCoyIgl7IM4hLiZ8U.svg" /></a>
+`brain-prime`
+<a href="https://asciinema.org/a/2E8C5uMgpC9nLqfUaiZDur0X1" target="_blank"></a>

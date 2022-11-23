@@ -1,25 +1,23 @@
+#!/usr/bin/env node
+
 import readlineSync from 'readline-sync';
 
-const roundsCount = 3;
+const maxWinStreak = 3;
 
-export default (description, generateRound) => {
-  console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
-  console.log(description);
+const interaction = (numberCorrectAnswers, game, name) => {
+  const [question, correctAnswer] = game();
 
-  for (let round = 0; round < roundsCount; round += 1) {
-    const [question, expectedAnswer] = generateRound();
+  if (numberCorrectAnswers === maxWinStreak) return console.log(`Congratulations, ${name}!`);
 
-    console.log(`Question: ${question}`);
-    const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer !== expectedAnswer) {
-      console.log(`${userAnswer} is wrong answer;(. Correct answer was ${expectedAnswer}.`);
-      console.log(`Let's try again, ${userName}!`);
-      return false;
-    }
+  console.log(`Question: ${question}`);
+  const userAnswer = readlineSync.question('Your answer: ');
+
+  if (userAnswer === correctAnswer) {
     console.log('Correct!');
+    interaction(numberCorrectAnswers + 1, game, name);
+  } else {
+    console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\nLet's try again, ${name}!`);
   }
-  console.log(`Congratulations, ${userName}!`);
-  return true;
 };
+
+export default interaction;

@@ -1,36 +1,21 @@
-import run from '../index.js';
-import { getRandomNumber, getRandomIndex } from '../helpers.js';
-
-const description = 'What number is missing in the progression?';
-const minLength = 5;
-const maxLength = 10;
-const minStep = 1;
-const maxStep = 10;
-const minRange = 1;
-const maxRange = 20;
-
-const createProgression = () => {
-  const expressionLength = getRandomNumber(minLength, maxLength);
-  const difference = getRandomNumber(minStep, maxStep);
-  const expressionStart = getRandomNumber(minRange, maxRange);
-  const progression = [expressionStart];
-  for (let i = 1; i < expressionLength; i += 1) {
-    progression[i] = progression[i - 1] + difference;
+const arithmeticProgressionGenerator = () => {
+  const progressionLength = Math.floor(Math.random() * 10 + 5);
+  const firstTerm = Math.floor(Math.random() * 10);
+  const step = Math.floor(Math.random() * 10);
+  const progression = [firstTerm];
+  for (let i = 0; i < progressionLength; i += 1) {
+    progression.push(progression[i] + step);
   }
+
   return progression;
 };
 
-const generateRound = () => {
-  const progression = createProgression();
-  const emptyPlace = getRandomIndex(progression);
-  const number = progression[emptyPlace];
-  progression[emptyPlace] = '..';
-  const expectedAnswer = String(number);
-  const question = progression.join(' ');
-
-  return [question, expectedAnswer];
+const brainProgression = () => {
+  const progression = arithmeticProgressionGenerator();
+  const replacementIndex = Math.floor(Math.random() * progression.length);
+  const replacedNumber = progression[replacementIndex];
+  progression[replacementIndex] = '..';
+  return [progression.join(' '), `${replacedNumber}`];
 };
 
-export default () => {
-  run(description, generateRound);
-};
+export default brainProgression;
