@@ -18,6 +18,7 @@ const interaction = (numberCorrectAnswers, game, name) => {
   } else {
     console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\nLet's try again, ${name}!`);
   }
+  return '';
 };
 
 export default interaction;

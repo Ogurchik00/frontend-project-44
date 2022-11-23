@@ -8,7 +8,8 @@ const brainGcd = () => {
   if (arrNum[0] % arrNum[1] === 0) return [`${randomFirstNum} ${randomSecondNum}`, `${arrNum[1]}`];
   while (arrNum[0] % arrNum[1] !== 0) {
     const t = arrNum[0];
-    arrNum[0] = arrNum[1];
+    const n = arrNum[1];
+    arrNum[0] = n;
     arrNum[1] = t - arrNum[1] * Math.floor(t / arrNum[1]);
   }
   return [`${randomFirstNum} ${randomSecondNum}`, `${arrNum[1]}`];
