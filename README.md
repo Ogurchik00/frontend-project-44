@@ -3,17 +3,6 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/684b9d804474c5c3dc42/maintainability)](https://codeclimate.com/github/Ogurchik00/frontend-project-44/maintainability)
 
-
-[Brain-even]()
-
-[Brain-calk]()
-
-[Brain-gcd]()
-
-[Brain-progression](https://asciinema.org/a/Kx8MWimWQBoPoar120sKhuQh5)
-
-[Brain-prime](https://asciinema.org/a/2E8C5uMgpC9nLqfUaiZDur0X1)
-
 # Project decription
 
 
