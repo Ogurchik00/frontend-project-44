@@ -1,0 +1,2 @@
+instal:
+      npm ci
