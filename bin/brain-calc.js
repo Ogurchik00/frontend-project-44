@@ -31,7 +31,7 @@ const game = () => {
 
     const randomNum = Math.floor(Math.random() * 99 + 1)
     const randomNumTwo = Math.floor(Math.random() * 99 + 1)
-    const operation = operator[Math.floor(Math.random() * 2 + 1)]
+    const operation = operator[Math.floor(Math.random() * 3)]
     console.log(`Question: ${randomNum} ${operation} ${randomNumTwo}`)
     const answer = readlineSync.question('Your answer: ');
 
