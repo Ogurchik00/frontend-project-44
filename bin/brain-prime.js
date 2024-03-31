@@ -11,7 +11,7 @@ const isPrime = (num) => {
 };
 
 const name = greetings();
-console.log('Answer "yes" if given number is prime. Otherwise answer "no".')
+console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
 
 const game = () => {
   for (let i = 0; i <= 3; i += 1) {
