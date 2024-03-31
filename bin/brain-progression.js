@@ -35,7 +35,7 @@ const game = () => {
     console.log(`Question: ${question.join(' ')}`);
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer === correctAnswer) {
+    if (answer === `${correctAnswer}`) {
       console.log('Correct!');
     } else {
       return console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.
