@@ -20,7 +20,7 @@ const nod = (num, numTwo) => {
 }
 
 const name = greetings()
-console.log('Answer "yes" if the number is even, otherwise answer "no".')
+console.log('Find the greatest common divisor of given numbers.')
 
 const game = () => {
   for(let i = 0; i <= 3; i += 1) {
