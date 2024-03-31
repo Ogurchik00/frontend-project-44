@@ -4,7 +4,7 @@ import greetings from '../src/greetings.js';
 
 
 const name = greetings()
-console.log('Answer "yes" if the number is even, otherwise answer "no".')
+console.log('What is the result of the expression?')
 
 const operator = ['+', '-', '*']
 
