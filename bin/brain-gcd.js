@@ -36,7 +36,7 @@ const game = () => {
     console.log(`Question: ${randomNum} ${randomNumTwo}`);
     const answer = readlineSync.question('Your answer: ');
 
-    if (answer === nod(randomNum, randomNumTwo)) {
+    if (answer === `${nod(randomNum, randomNumTwo)}`) {
       console.log('Correct!');
     } else {
       return console.log(`'${answer}' is wrong answer ;(. Correct answer was '${nod(randomNum, randomNumTwo)}'.
