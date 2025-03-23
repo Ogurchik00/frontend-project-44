@@ -1,8 +1,11 @@
 export default (operandFirst, operandSecond) => {
-    while (operandSecond !== 0) {
-        const temp = operandSecond;
-        operandSecond = operandFirst % operandSecond;
-        operandFirst = temp;
-      }
-      return `${operandFirst}`;
-}
+  let a = operandFirst;
+  let b = operandSecond;
+
+  while (b !== 0) {
+    const temp = b;
+    b = a % b;
+    a = temp;
+  }
+  return `${a}`;
+};
